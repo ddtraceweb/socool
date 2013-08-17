@@ -20,7 +20,7 @@ Install SoCool Framework By Composer :
 getcomposer.org
 
 ```cmd
-php composer.phar create-project socool/socool path/ 1.0.2
+php composer.phar create-project socool/socool path/ 1.0.3
 ```
 
 For Assets Css and Js, I recommand to use "Bower"
