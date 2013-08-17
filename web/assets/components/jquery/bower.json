@@ -1,0 +1,11 @@
+{
+  "name": "jquery",
+  "version": "0.0.0",
+  "repository": {
+    "type": "local",
+    "path": "./components/jquery"
+  },
+  "_id": "jquery@0.0.0",
+  "readme": "ERROR: No README.md file found!",
+  "description": "ERROR: No README.md file found!"
+}

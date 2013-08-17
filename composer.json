@@ -1,0 +1,26 @@
+{
+    "name": "socool/socool",
+    "description": "SoCool Framework !",
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "monolog/monolog": "1.*",
+        "doctrine/dbal": "2.3.*",
+        "symfony/routing": "2.3.*",
+        "symfony/config": "2.3.*",
+        "symfony/yaml": "2.3.*",
+        "symfony/http-foundation": "2.3.*",
+        "symfony/templating": "2.3.*",
+        "symfony/translation": "2.3.*",
+        "zendframework/zend-json": "2.*",
+        "zendframework/zend-i18n": "2.*",
+        "zendframework/zend-http": "2.*",
+        "zendframework/zend-servicemanager": "2.*",
+        "ddtraceweb/pfbc": "1.*",
+        "symfony/debug": "2.3.*",
+        "meenie/Munee": "*"
+    }
+}

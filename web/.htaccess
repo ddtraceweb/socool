@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    #<IfModule mod_vhost_alias.c>
+    #    RewriteBase /
+    #</IfModule>
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php [QSA,L]
+
+    #### Munee .htaccess Code Start ####
+    RewriteRule ^(.*\.(?:css|less|scss|js|coffee|jpg|png|gif|jpeg))$ munee.php?files=/$1 [L,QSA,NC]
+    #### Munee .htaccess Code End ####
+</IfModule>

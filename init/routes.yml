@@ -1,0 +1,4 @@
+# routes.yml
+index:
+    pattern: '/'
+    defaults: { application: 'Cool', bundle: 'home', controller: 'home', action: 'index' }

@@ -1,0 +1,11 @@
+{
+  "name": "tiny_mce",
+  "version": "0.0.0",
+  "repository": {
+    "type": "local",
+    "path": "./components/tiny_mce"
+  },
+  "_id": "tiny_mce@0.0.0",
+  "readme": "ERROR: No README.md file found!",
+  "description": "ERROR: No README.md file found!"
+}

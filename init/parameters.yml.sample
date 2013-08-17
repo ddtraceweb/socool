@@ -1,0 +1,12 @@
+default:
+    dbname:           db1
+    user:             toto
+    password:         tata
+    host:             localhost
+    driver:           pdo_mysql
+log:
+    dbname:           db2
+    user:             toto
+    password:         tata
+    host:             localhost
+    driver:           pdo_mysql

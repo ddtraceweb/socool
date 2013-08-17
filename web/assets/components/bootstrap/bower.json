@@ -1,0 +1,11 @@
+{
+  "name": "bootstrap",
+  "version": "0.0.0",
+  "repository": {
+    "type": "local",
+    "path": "./components/bootstrap"
+  },
+  "_id": "bootstrap@0.0.0",
+  "readme": "ERROR: No README.md file found!",
+  "description": "ERROR: No README.md file found!"
+}

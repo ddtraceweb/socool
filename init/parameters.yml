@@ -1,0 +1,6 @@
+default:
+    dbname:           db1
+    user:             toto
+    password:         tata
+    host:             localhost
+    driver:           pdo_mysql
