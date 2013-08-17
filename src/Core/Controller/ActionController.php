@@ -74,10 +74,6 @@ class ActionController extends Repository
 
         $this->setSeoArray($arraySeo);
 
-        if ($this->getContext()->getParameter('security') == 'yes') {
-            $this->checkSession();
-        }
-
         //Set Environment Template
         $this->setLoader(new FilesystemLoader(dirname(__FILE__) . '/../../' . $applicationName . '/Views/%name%'));
         $this->setView(new PhpEngine(new TemplateNameParser(), $this->getLoader()));
