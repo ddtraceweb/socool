@@ -15,12 +15,12 @@ CREATE TABLE IF NOT EXISTS `session` (
 
 ```
 
-for install socool you must use composer to load all dependencies of the project :
+Install SoCool Framework By Composer :
 
 getcomposer.org
 
 ```cmd
-php composer.phar require ddtraceweb/socool
+php composer.phar create-project socool/socool path/ 1.0.2
 ```
 
 For Assets Css and Js, I recommand to use "Bower"
