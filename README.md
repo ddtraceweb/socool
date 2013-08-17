@@ -2,6 +2,8 @@ Socool Framework
 
 you must have session in database for use session with socool framework.
 
+need PHP 5.4 or +
+
 example with mysql :
 
 ```SQL
