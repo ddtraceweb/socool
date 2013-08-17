@@ -16,6 +16,6 @@ class HomeController extends ActionController
      */
     public function indexAction()
     {
-        $this->render('promo/mention.php')->send();
+        $this->render('promo/home.php')->send();
     }
 }
