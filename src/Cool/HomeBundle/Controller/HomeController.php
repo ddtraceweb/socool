@@ -1,6 +1,6 @@
 <?php
 
-namespace Sanxs\HomeBundle\Controller;
+namespace Cool\HomeBundle\Controller;
 
 use Core\Controller\ActionController;
 
@@ -16,6 +16,6 @@ class HomeController extends ActionController
      */
     public function indexAction()
     {
-        $this->render('promo/index.php')->send();
+        $this->render('index.php')->send();
     }
 }

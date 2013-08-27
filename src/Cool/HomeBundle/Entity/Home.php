@@ -7,9 +7,9 @@
  * To change this template use File | Settings | File Templates.
  */
 
-namespace Sanxs\HomeBundle\Entity;
+namespace Cool\HomeBundle\Entity;
 
-use Sanxs\HomeBundle\Entity\Repository\HomeRepository;
+use Cool\HomeBundle\Entity\Repository\HomeRepository;
 
 class Home extends HomeRepository
 {

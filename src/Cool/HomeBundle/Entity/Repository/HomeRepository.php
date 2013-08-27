@@ -7,7 +7,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-namespace Sanxs\HomeBundle\Entity\Repository;
+namespace Cool\HomeBundle\Entity\Repository;
 
 use Core\Dao\Repository\Repository;
 
